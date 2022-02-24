@@ -1,4 +1,4 @@
-package com.solyi.api.common.repository;
+package com.solyi.api.member.repository;
 
 /**
  * packageName: com.solyi.api.common.repository
@@ -12,10 +12,5 @@ package com.solyi.api.common.repository;
  * 2022-02-11         solyikwon      최초 생성
  **/
 public interface MemberRepository {
-void Membershiplist();
-void MembershipIf();
-Void Shipmentlist();
-Void Sendemaill();
-void Accumulated();
 
 }

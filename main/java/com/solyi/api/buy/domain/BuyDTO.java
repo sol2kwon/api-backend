@@ -1,4 +1,4 @@
-package com.solyi.api.common.domain;
+package com.solyi.api.buy.domain;
 
 /**
  * packageName: com.solyi.api.common.domain
@@ -12,7 +12,7 @@ package com.solyi.api.common.domain;
  * 2022-02-11         solyikwon      최초 생성
  **/
 public class BuyDTO {
-    private final static BuyDTO buyDTO =new BuyDTO();
+    private final static BuyDTO buyDTO = new BuyDTO();
     private BuyDTO(){}
     public static BuyDTO getInstance(){return buyDTO;}
     public int getNum() {

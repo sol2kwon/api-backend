@@ -1,11 +1,8 @@
-package com.solyi.api.common.controller;
-
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+package com.solyi.api.buy.controller;
 
 /**
  * packageName: com.solyi.api.common.controller
- * fileName        : MemberController.java
+ * fileName        : BuyController.java
  * author          : solyikwon
  * date            : 2022-02-11
  * desc            :
@@ -14,9 +11,5 @@ import org.springframework.web.bind.annotation.RestController;
  * =============================================
  * 2022-02-11         solyikwon      최초 생성
  **/
-
-public class MemberController {
-
-
-
+public class BuyController {
 }

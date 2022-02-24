@@ -1,8 +1,8 @@
-package com.solyi.api.common.service;
+package com.solyi.api.member.service;
 
 /**
  * packageName: com.solyi.api.common.service
- * fileName        : MemberServiceImpl.java
+ * fileName        : MemberService.java
  * author          : solyikwon
  * date            : 2022-02-11
  * desc            :
@@ -11,5 +11,14 @@ package com.solyi.api.common.service;
  * =============================================
  * 2022-02-11         solyikwon      최초 생성
  **/
-public class MemberServiceImpl{
+public interface MemberService {
+    String Membershiplist();
+    String MembershipIf();
+    String Shipmentlist();
+    String Sendemaill();
+    String Accumulated();
+    String calc();
+    String bmi();
+    String grade();
+
 }
