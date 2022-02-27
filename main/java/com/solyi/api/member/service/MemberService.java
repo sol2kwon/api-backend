@@ -24,4 +24,5 @@ public interface MemberService {
     String grade(GradeDTO grade);
 
     String login(LoginDTO login);
+
 }
