@@ -1,5 +1,7 @@
 package com.solyi.api.member.repository;
 
+import com.solyi.api.member.domain.*;
+
 /**
  * packageName: com.solyi.api.common.repository
  * fileName        : MemberRepository.java
@@ -13,4 +15,13 @@ package com.solyi.api.member.repository;
  **/
 public interface MemberRepository {
 
+    String calc(CalcDTO calc);
+
+    String bmi(BmiDTO bmi);
+
+    String grade(GradeDTO grade);
+
+    String login(LoginDTO login);
+
+    String member(MemberDTO member);
 }

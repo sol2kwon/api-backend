@@ -1,5 +1,8 @@
 package com.solyi.api.buy.controller;
 
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
 /**
  * packageName: com.solyi.api.common.controller
  * fileName        : BuyController.java
@@ -11,5 +14,7 @@ package com.solyi.api.buy.controller;
  * =============================================
  * 2022-02-11         solyikwon      최초 생성
  **/
+@RestController
+@RequestMapping("/buy")
 public class BuyController {
 }
